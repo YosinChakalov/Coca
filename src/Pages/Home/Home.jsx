@@ -82,21 +82,21 @@ const Home = () => {
 
   return (
     <>
-      <main className="w-[1519px] m-auto">
+      <main className="w-[1519px] m-auto sm:w-[100%] md:w-[100%] lg:w-[100%]">
         <section className="w-[90%] m-auto">
-          <div className="flex justify-between items-center h-[900px] ">
-            <div className="flex flex-col justify-between items-start h-[600px] ">
-              <h1 className="text-[70px] font-[700] w-[80%] text-[#1D1E25]">
+          <div className="flex justify-between items-center h-[900px]  sm:h-[370px] md:h-[370px] lg:h-[370px]">
+            <div className="flex flex-col justify-between items-start h-[600px] sm:h-[300px] md:h-[300px] lg:h-[300px]  ">
+              <h1 className="text-[70px] font-[700] w-[80%] text-[#1D1E25] sm:text-[30px] md:text-[40px] lg:text-[50px]">
                 {t("main.section_1.h1")}
               </h1>
               <div className="flex items-start">
-                <img src={line} alt="" className="pt-[25px] pr-[20px]" />
-                <p className="text-[30px] w-[65%] font-[700]">
+                <img src={line} alt="" className="pt-[25px] pr-[20px] sm:hidden md:hidden lg:hidden" />
+                <p className="text-[30px] w-[65%] font-[700] sm:text-[15px] md:text-[20px] lg:text-[25px]">
                   {t("main.section_1.p")}
                 </p>
               </div>
               <div>
-                <TextField label="Enter your email" variant="standard" />
+                <TextField label="Enter your email" variant="standard" style={{marginBottom: 20}} />
                 <Button
                   variant="contained"
                   style={{
@@ -113,11 +113,11 @@ const Home = () => {
                 </Button>
               </div>
             </div>
-            <div className="w-[70%] relative">
+            <div className="w-[70%] relative sm:hidden md:hidden lg:hidden">
               <img
                 src={sales}
                 alt=""
-                className="h-[100%]"
+                className="h-[100%] "
                 data-aos="fade-right"
               />
               <img
@@ -135,15 +135,15 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="w-[100%] bg-[#1D1E25] m-[auto]">
-          <div className="w-[90%] m-auto py-[100px]">
-            <h1 className="text-[#eeeeee] text-[50px] font-[700] w-[50%]">
+        <section className="w-[100%] bg-[#1D1E25] m-[auto] sm:w-[100%] md:w-[100%] lg:w-[100%]">
+          <div className="w-[90%] m-auto py-[100px] ">
+            <h1 className="text-[#eeeeee] text-[50px] font-[700] w-[50%] sm:text-[15px] md:text-[20px] lg:text-[25px]">
               {t("main.section_2.h1")}
             </h1>
-            <p className="text-[#7E8492] text-[20px] w-[50%] mt-[20px]">
+            <p className="text-[#7E8492] text-[20px] w-[50%] mt-[20px] sm:text-[10px] md:text-[15px] lg:text-[20px]">
               {t("main.section_2.p")}
             </p>
-            <div className="flex justify-between flex-wrap gap-10 mt-[100px]">
+            <div className="flex justify-between flex-wrap gap-10 mt-[100px] sm:flex-wrap md:flex-wrap lg:flex-wrap ">
               <Card_1
                 img={icon_1}
                 title={t("main.section_2.h2")}
@@ -168,17 +168,17 @@ const Home = () => {
           </div>
         </section>
         <section className="w-[90%] m-auto py-[70px]">
-          <div className="relative flex justify-center items-center">
+          <div className="relative flex justify-center items-center sm:flex-wrap md:flex-wrap lg:flex-wrap">
             <div className="w-[70%]">
               <img src={workImg} alt="" />
               <img
                 src={workImgStatis}
                 alt=""
-                className="absolute top-[320px] left-[260px]"
+                className="absolute top-[320px] left-[260px] sm:hidden md:hidden lg:hidden"
               />
             </div>
             <div className="w-[70%]">
-              <h1 className="text-[60px] font-[600] w-[90%]">
+              <h1 className="text-[60px] font-[600] w-[90%] sm:text-[17px] md:text-[25px] lg:text-[35px]">
                 {t("main.section_3.h1")}
               </h1>
               <p className="text-[#7E8492] my-[20px]">
@@ -193,34 +193,36 @@ const Home = () => {
           </div>
         </section>
         <section
-          className="w-[90%] m-auto flex justify-between items-center mb-[100px]"
+          className="w-[90%] m-auto"
           data-aos="fade-up-right"
         >
+          <div className="flex justify-between items-center mb-[100px] sm:max-w-[500px] sm:flex-wrap">
           <Card_3 number={"17k"} desc={t("main.section_4.h1")} />
           <Card_3 number={"15+"} desc={t("main.section_4.h2")} />
           <Card_3 number={"50+"} desc={t("main.section_4.h3")} />
           <Card_3 number={"100+"} desc={t("main.section_4.h4")} />
+          </div>
         </section>
         <section className="w-[90%] m-auto py-[100px] border-b-2">
           <img src={teamImg} alt="" className="w-[100%]" />
-          <div className="flex mt-[50px]">
-            <h1 className="text-[50px] font-[700] w-[50%]">
+          <div className="flex mt-[50px] sm:flex-wrap md:flex-wrap lg:flex-wrap ">
+            <h1 className="text-[50px] font-[700] w-[50%] sm:text-[17px] md:text-[25px] lg:text-[35px]  sm:w-[100%] md:w-[100%] lg:w-[50%]">
               {t("main.section_5.h1")}
             </h1>
-            <p className="text-[#7E8492] text-[20px] pt-[30px] w-[50%]">
+            <p className="text-[#7E8492] text-[20px] pt-[30px] w-[50%] sm:text-[10px] md:text-[20px] lg:text-[20px] sm:w-[100%] md:w-[100%] lg:w-[50%]">
               {t("main.section_5.p")}
             </p>
           </div>
         </section>
         <section className="w-[90%] m-auto py-[80px] border-b-2">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center sm:flex-wrap md:flex-wrap lg:flex-wrap">
             <div>
               <h1 className="text-[50px] font-[600]">890+</h1>
               <p className="text-[18px] text-[#7E8492] mt-[10px] w-[60%]">
                 {t("main.section_6.h1")}
               </p>
             </div>
-            <div className="flex justify-center items-center gap-10 flex-wrap w-[70%]">
+            <div className="flex justify-center items-center gap-10 flex-wrap w-[70%] mt-[20px]">
               <Card_4 img={airbnb} />
               <Card_4 img={amazon} />
               <Card_4 img={fedex} />
@@ -232,14 +234,14 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="w-[90%] m-auto">
-          <h1 className="text-[50px] font-[600] w-[45%]">
+        <section className="w-[90%] m-auto mt-[30px]">
+          <h1 className="text-[50px] font-[600] w-[45%] sm:text-[17px] md:text-[25px] lg:text-[35px]  ">
             {t("main.section_7.h1")}
           </h1>
-          <p className="text-[20px] text-[#7E8492] w-[35%] my-[30px]">
+          <p className="text-[20px] text-[#7E8492] w-[35%] my-[30px] sm:text-[15px] sm:w-[70%] md:text-[20px] lg:text-[25px]">
             {t("main.section_7.p")}
           </p>
-          <div className="flex justify-between items-center flex-wrap">
+          <div className="flex justify-between items-center flex-wrap ">
             <Card_5
               img={workers}
               title={t("main.section_7.h2")}
@@ -263,8 +265,8 @@ const Home = () => {
           </div>
         </section>
         <section className="w-[90%] m-auto p-[50px]">
-          <h1 className="text-[60px] text-center">{t("main.section_8.h1")}</h1>
-          <p className="text-[20px] text-[#7E8492] text-center mt-[10px]">
+          <h1 className="text-[60px] text-center sm:text-[20px] md:text-[30px] lg:text-[40px]">{t("main.section_8.h1")}</h1>
+          <p className="text-[20px] text-[#7E8492] text-center mt-[10px] sm:text-[10px] md:text-[20px] lg:text-[20px]">
             {t("main.section_8.p")}
           </p>
           <div className="mt-[20px]">
@@ -287,20 +289,20 @@ const Home = () => {
               <SwiperSlide>
                 <img src={manWriting} />
                 <div className="flex justify-between text-[#7E8492] mt-[10px]">
-                  <p>{t("main.section_8.published")}</p>
-                  <p>{t("main.section_8.artist")}</p>
+                  <p className="sm:text-[10px] md:text-[20px] lg:text-[20px]">{t("main.section_8.published")}</p>
+                  <p className="sm:text-[9px] md:text-[19px] lg:text-[20px]">{t("main.section_8.artist")}</p>
                 </div>
-                <h1 className="text-[30px] font-[700] my-[20px]">
+                <h1 className="text-[30px] font-[700] my-[20px] sm:text-[9px] md:text-[20px] lg:text-[20px]">
                   {t("main.section_8.h2")}
                 </h1>
               </SwiperSlide>
               <SwiperSlide>
                 <img src={manWriting2} />
                 <div className="flex justify-between text-[#7E8492] mt-[10px]">
-                  <p>{t("main.section_8.published")}</p>
-                  <p>{t("main.section_8.artist")}</p>
+                  <p className="sm:text-[10px] md:text-[20px] lg:text-[20px]">{t("main.section_8.published")}</p>
+                  <p className="sm:text-[9px] md:text-[19px] lg:text-[20px]">{t("main.section_8.artist")}</p>
                 </div>
-                <h1 className="text-[30px] font-[700] my-[20px]">
+                <h1 className="text-[30px] font-[700] my-[20px] sm:text-[10px] md:text-[20px] lg:text-[20px]">
                   {t("main.section_8.h3")}
                 </h1>
               </SwiperSlide>
@@ -308,11 +310,11 @@ const Home = () => {
           </div>
         </section>
         <section className="w-[90%] m-auto">
-          <div className="flex justify-between items-center">
-            <h1 className="text-[40px] font-[700] w-[30%]">
+          <div className="flex justify-between items-center sm:flex-wrap md:flex-wrap lg:flex-wrap">
+            <h1 className="text-[40px] font-[700] w-[30%] sm:text-[15px] md:text-[20px] lg:text-[30px]">
               {t("main.section_9.h1")}
             </h1>
-            <p className="text-[#7E8492] w-[32%] text-[20px]">
+            <p className="text-[#7E8492] w-[32%] text-[20px] sm:text-[9px] md:text-[14px] lg:text-[20px]">
               {t("main.section_9.p")}
             </p>
           </div>
@@ -343,16 +345,16 @@ const Home = () => {
                 <Box sx={{ ml: 2 }}>{labels[hover !== -1 ? hover : value]}</Box>
               )}
             </Box>
-            <h1 className="text-[30px] w-[84%] font-[600] mt-[10px] mb-[50px]">{t('main.section_9.h2')}</h1>
-            <div className="my-[30px] flex justify-between">
+            <h1 className="text-[30px] w-[84%] font-[600] mt-[10px] mb-[50px] sm:text-[9px] md:text-[20px] lg:text-[20px]">{t('main.section_9.h2')}</h1>
+            <div className="my-[30px] flex justify-between flex-wrap">
               <div className="flex items-center gap-5">
                 <img src={avatar} alt="" />
                 <div>
-                <h1 className="text-[20px] font-[700]">Renee Wells</h1>
-                <h1 className="text-[#7E8492]">Product Designer, Quotient</h1>
+                <h1 className="text-[20px] font-[700] sm:text-[12px] md:text-[17px] lg:text-[22px]">Renee Wells</h1>
+                <h1 className="text-[#7E8492] sm:text-[9px] md:text-[20px] lg:text-[20px]">Product Designer, Quotient</h1>
                 </div>
               </div>
-              <div className="flex gap-5">
+              <div className="flex gap-5 mt-[20px]">
               <Button variant="outlined" style={{width: 60, height: 60, borderRadius: "50%", backgroundColor: "transparent", color: "gray", borderColor: "gray"}}><ArrowBack /></Button>
               <Button variant="contained" style={{width: 60, height: 60, borderRadius: "50%", backgroundColor: "black", color: "white"}}><ArrowForward /></Button>
               </div>
