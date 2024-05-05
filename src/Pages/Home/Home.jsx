@@ -269,7 +269,7 @@ const Home = () => {
           <p className="text-[20px] text-[#7E8492] text-center mt-[10px] sm:text-[10px] md:text-[20px] lg:text-[20px]">
             {t("main.section_8.p")}
           </p>
-          <div className="mt-[20px]">
+          <div className="mt-[20px] sm:w-[100%] md:w-[100%] lg:w-[100%]">
             <Swiper
               effect={"coverflow"}
               grabCursor={true}
@@ -299,7 +299,7 @@ const Home = () => {
               <SwiperSlide>
                 <img src={manWriting2} />
                 <div className="flex justify-between text-[#7E8492] mt-[10px]">
-                  <p className="sm:text-[10px] md:text-[20px] lg:text-[20px]">{t("main.section_8.published")}</p>
+                  <p className="sm:text-[9px] md:text-[20px] lg:text-[20px]">{t("main.section_8.published")}</p>
                   <p className="sm:text-[9px] md:text-[19px] lg:text-[20px]">{t("main.section_8.artist")}</p>
                 </div>
                 <h1 className="text-[30px] font-[700] my-[20px] sm:text-[10px] md:text-[20px] lg:text-[20px]">
