@@ -267,10 +267,10 @@ const Pricing = () => {
       <div>
         <div className="text-center">
           <h1 className="text-[#1D1E25] text-[56px] font-[semibold] tracking-[-2px] mb-[24px]">
-            {t("pricing.sec2.hero-text")}
+            {t("main_3.section_3.h1")}
           </h1>
           <p className="text-[#7E8492] text-[18px] font-[medium]">
-            {t("pricing.sec2.desc")}
+            {t("main_3.section_3.p")}
           </p>
         </div>
 
