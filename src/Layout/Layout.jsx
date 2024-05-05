@@ -4,6 +4,11 @@ import Logo_2 from "/src/assets/Logo (3).svg";
 import { ArrowForward } from "@mui/icons-material";
 import { Button } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import Switcher from "../Components/Switcher/Switcher.jsx";
+import facebook from '/src/assets/facebook.svg'
+import twitter from '/src/assets/Social icon (1).svg'
+import linkedin from '/src/assets/Social icon (2).svg'
+import instagram from '/src/assets/Social icon (3).svg'
 
 const Layout = () => {
   const { t, i18n } = useTranslation();
@@ -18,6 +23,7 @@ const Layout = () => {
         <nav className="w-[90%] m-auto flex justify-between items-center h-[90px]">
           <img src={Logo} alt="" />
           <div className="flex justify-between w-[43%]">
+            <Switcher />
             <select
               name=""
               id=""
@@ -58,7 +64,7 @@ const Layout = () => {
             <Button variant="contained" style={{backgroundColor: "white", color: "black", borderRadius: 40,paddingLeft: 30,paddingRight: 30,paddingBottom: 10,paddingTop: 10}}>{t('footer.top.btn')}</Button>
           </div>
         </div>
-        <div className="w-[90%] m-auto border-b-4 border-[#606060] pb-[30px] ">
+        <div className="w-[90%] m-auto border-b-2 border-[#606060] pb-[30px] ">
             <div className="flex justify-between items-center">
                 <div>
                     <img src={Logo_2} alt="" />
@@ -103,6 +109,22 @@ const Layout = () => {
                     </div>
                 </div>
             </div>
+        </div>
+        <div className="w-[90%] m-auto py-[30px]">
+          <div className="flex justify-between items-center text-[#eeeeee]">
+          <div className="flex justify-between items-center w-[50%]">
+            <div className="flex items-center gap-5">
+              <img src={facebook} alt="" />
+              <img src={twitter} alt="" />
+              <img src={instagram} alt="" />
+              <img src={linkedin} alt="" />
+            </div>
+            <h1>{t("footer.bottom.ul5.h1")}</h1>
+            <h1>{t("footer.bottom.ul5.h2")}</h1>
+            <h1>{t("footer.bottom.ul5.h3")}</h1>
+          </div>
+          <h1>© Copyright 2023,t All Rights Reserved</h1>
+          </div>
         </div>
       </footer>
     </div>

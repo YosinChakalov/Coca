@@ -13,7 +13,11 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import '/src/App.css';
 import manimg from '/src/assets/Rectangle 4.png'
-
+import womanimg from '/src/assets/Rectangle 5.png'
+import manimg_2 from '/src/assets/Rectangle 6.png'
+import twitter_2 from '/src/assets/Social Icons.png'
+import linkedin_2 from '/src/assets/Social Icons (1).png'
+import instagram_2 from '/src/assets/Social Icons (2).png'
 import { Pagination } from 'swiper/modules';
 import Card_6 from "../../Components/Card_6/Card_6";
 
@@ -56,6 +60,47 @@ const About = () => {
         <div className="py-[50px] border-t-2 border-b-2 flex justify-between items-center">
           <h1 className="text-[60px] w-[45%] font-[700]">{t("main_2.section_3.h1")}</h1>
           <h1 className="text-[20px] w-[30%] font-[700]">{t("main_2.section_3.p")}</h1>
+        </div>
+      </section>
+      <section className="w-[90%] m-auto my-[100px]">
+        <Swiper
+          spaceBetween={50}
+          slidesPerView={3}
+          pagination={{
+            clickable: true,
+          }}
+          style={{
+            width: "100%",
+            height: "100%",
+          }}
+        >
+          <SwiperSlide>
+            <Card_6 img={manimg} name={t('main_2.section_4.name1')} statis={t('main_2.section_4.pos1')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+          </SwiperSlide>
+          <SwiperSlide>
+          <Card_6 img={womanimg} name={t('main_2.section_4.name2')} statis={t('main_2.section_4.pos2')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+          </SwiperSlide>
+          <SwiperSlide>
+          <Card_6 img={manimg_2} name={t('main_2.section_4.name3')} statis={t('main_2.section_4.pos3')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card_6 img={manimg} name={t('main_2.section_4.name1')} statis={t('main_2.section_4.pos1')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+          </SwiperSlide>
+          <SwiperSlide>
+          <Card_6 img={womanimg} name={t('main_2.section_4.name2')} statis={t('main_2.section_4.pos2')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+          </SwiperSlide>
+          <SwiperSlide>
+          <Card_6 img={manimg_2} name={t('main_2.section_4.name3')} statis={t('main_2.section_4.pos3')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+          </SwiperSlide>
+        </Swiper>
+      </section>
+      <section className="w-[90%] m-auto my-[100px]">
+        <div className="flex justify-between items-center">
+          <h1 className="text-[60px] font-[600] w-[50%]">{t("main_2.section_5.h1")}</h1>
+          <div className="w-[40%]">
+            <h1 className="text-[20px] text-[#7E8492] w-[100%] my-[40px]">{t("main_2.section_5.p")}</h1>
+            <Button style={{color: "black",marginTop: 10}}>{t("main_2.section_5.btn")} <ArrowForward  className="ml-[10px]"/></Button>
+          </div>
         </div>
       </section>
     </main>

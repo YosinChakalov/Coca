@@ -79,10 +79,15 @@
             "p": "To become the company that customers want, it takes a group of passionate people. Get to know the people who lead",
             "name1": "Arlyne Stefano",
             "pos1": "Founder & CEO",
-            "name2": "Arlyne Stefano",
-            "pos2": "Founder & CEO",
-            "name3": "Arlyne Stefano",
-            "pos3": "Founder & CEO"
+            "name2": "Katy Cristy",
+            "pos2": "Chief Technology Officer",
+            "name3": "Roger Dzawin",
+            "pos3": "Chief Technology Officer"
+        },
+        "section_5": {
+            "h1": "Join our team, The one with the master touch",
+            "p": "We believe it takes great people to make a great product. That’s why we hire not only the perfect professional fits, but people who embody our company values.",
+            "btn": "See Open Position"
         }
     },
     "main_3": {
@@ -180,6 +185,11 @@
                 "li2": "Knowledge Base",
                 "li3": "Academy",
                 "li4": "Support"
+            },
+            "ul5": {
+                "h1": "Privacy Policy",
+                "h2": "Terms & Conditions",
+                "h3": "Support"
             }
         }
     }
