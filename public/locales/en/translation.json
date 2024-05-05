@@ -1,0 +1,186 @@
+{
+    "header": {
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "blog": "Blog",
+            "pricing": "Pricing",
+            "contacts": "Contact Us"
+        }
+    },
+    "main": {
+        "section_1": {
+            "h1": "Digitally forward creative",
+            "p": "When it comes to interactive marketing, we've got you covered. Be where the world is going",
+            "btn": "Try for free"
+        },
+        "section_2": {
+            "h1": "Coca help our client solve complex customer problems with date that does more.",
+            "p": "Our platform offers the modern enterprise full control of how date can be access and used with industry leading software solutions for identity, activation, and date collaboration",
+            "h2": "Build your date fundamental",
+            "p2":"Build access to date, develop valuable business insights and drive revenue while maintaining full control over access and use of date at all times.   "
+        },
+        "section_3": {
+            "h1": "Passion to increase company revenue up to 85%",
+            "p": "Automate your sales, marketing and service in one platform. Avoid date leaks and enable consistent messaging",
+            "p1": "Close more deals with single - page contact managment",
+            "p2": "Enjoy one-click calling, call scripts and voicemail automation",
+            "p3": "Take stages and milestones of your deals to keep the sales process an track"
+        },
+        "section_4": {
+            "h1" : "happy customers on worldwide",
+            "h2" : "Hours of work experience",
+            "h3" : "Creativity & passionate members",
+            "h4" : "Integrations lorem ipsum integrations"
+        },
+        "section_5": {
+            "h1": "Lift your business to new heights with our digital marketing services",
+            "p": "To build software that gives customer facing teams in small and medium-sized businesses the ability to create rewarding and long-lasting relationships with customers"
+        },
+        "section_6": {
+            "h1": "some big companies that we work with, and trust us very much"
+        },
+        "section_7": {
+            "h1": "Advertise, analyze, and optimize! We do it all for you",
+            "p": "Build more meaningful and lasting relationships - better understand their needs, identify new opportunities to help address any problems faster",
+            "h2": "Lead happiness for customers",
+            "p2": "Build more meaningful and lasting relationships - better understand their needs, identify new opportunities to help address any problems faster"
+        },
+        "section_8": {
+            "h1": "Trending news from Coca",
+            "p": "we have some new Service to pamper you",
+            "published": "Published in Insight Jan 30, 2021",
+            "artist": "by : Albert Sans",
+            "h2": "What makes an authentic employee profile, and why does it matter ?",
+            "h3": "How to build a Kaylen relationship with a good company ?"
+        },
+        "section_9": {
+            "h1": "What our customer are saying",
+            "p": "We are trusted numerous companies from different business to meet their needs",
+            "h2": "“With Agency the results are very satisfying. wrapped with Hight quality and innovative design that makes a surge of visitors on my website”"
+        }
+    },
+    "main_2": {
+        "section_1": {
+            "h1": "Everything you need to get the attention of your audience",
+            "h2": "Our digital agency helps clients develop, implement and maintain successful digital marketing strategies across all channels. Also work with you to build your website and create online businesses that grow."
+        },
+        "section_2": {
+            "h1": "What we believe in",
+            "p": "Over the years at Sans, we’ve put a lot of thought into what it is that makes us who we are. The qualities that unite us, that make us such an effective team, and...",
+            "btn": "See Details"
+        },
+        "section_3": {
+            "h1": "Powerful ideas & sales acceleration",
+            "p": "We are a software development firm specializing in digital products. We build beautiful, functional and cross-platform solutions that are accessible to all."
+        },
+        "section_4": {
+            "h1": "Meet our team of creators, designers, and world-class problem solvers",
+            "p": "To become the company that customers want, it takes a group of passionate people. Get to know the people who lead",
+            "name1": "Arlyne Stefano",
+            "pos1": "Founder & CEO",
+            "name2": "Arlyne Stefano",
+            "pos2": "Founder & CEO",
+            "name3": "Arlyne Stefano",
+            "pos3": "Founder & CEO"
+        }
+    },
+    "main_3": {
+        "section_1": {
+            "p": "Pricing plans 🤑",
+            "h1": "Choose a plan for a more advanced business"
+        },
+        "section_2": {
+            "card_1": {
+                "title": "Starter",
+                "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "included": "What’s included:",
+                "text_1": "Unlimited Upload",
+                "text_2": "Advanced Statistic",
+                "text_3": "Profile Badge",
+                "text_4": "Access to the community",
+                "text_5": "History of all Liked Photos",
+                "text_6": "Directory Listing",
+                "text_7": "Customize Your Profile",
+                "text_8": "Display Your Workshops",
+                "btn": "Chose Plan"
+            },
+            "card_2": {
+                "offer": "Best Offers 🔥",
+                "title": "Popular",
+                "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "included": "What’s included:",
+                "text_1": "Unlimited Upload",
+                "text_2": "Advanced Statistic",
+                "text_3": "Profile Badge",
+                "text_4": "Access to the community",
+                "text_5": "History of all Liked Photos",
+                "text_6": "Directory Listing",
+                "text_7": "Customize Your Profile",
+                "text_8": "Display Your Workshops",
+                "btn": "Chose Plan"
+            },
+            "card_3": {
+                "title": "Enterprise",
+                "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "included": "What’s included:",
+                "text_1": "Unlimited Upload",
+                "text_2": "Advanced Statistic",
+                "text_3": "Profile Badge",
+                "text_4": "Access to the community",
+                "text_5": "History of all Liked Photos",
+                "text_6": "Directory Listing",
+                "text_7": "Customize Your Profile",
+                "text_8": "Display Your Workshops",
+                "btn": "Chose Plan"
+            }
+        },
+        "section_3": {
+            "h1": "Frequently asked questions",
+            "p": "Everything you need to know about the product and billing.",
+            "text1": "Is there a free trial available?",
+            "desc": "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+            "text2": "How Can I Add More Emails To My Account?",
+            "text3": "Can I Change Plans Or Cancel My Subscription At Any Time",
+            "text4": "How Secure Is My Date With Sans CRM",
+            "text5": "What Is The Uptime Guarantee"
+        }
+    },
+    "footer": {
+        "top": {
+            "h1": "Think beyond the wave",
+            "paragraph": "Ask about Sans products, pricing, implementation, or anything else. Our highly trained reps are standing by, ready to help",
+            "btn": "Try for free"
+        },
+        "bottom": {
+            "ul1": {
+                "h1": "Company",
+                "li1": "About",
+                "li2": "Pricing",
+                "li3": "Jobs",
+                "li4": "Blog"
+            },
+            "ul2": {
+                "h1": "Product",
+                "li1": "Sales Software",
+                "li2": "Marketplace",
+                "li3": "Terms & Conditions",
+                "li4": "Privacy Policy"
+            },
+            "ul3": {
+                "h1": "Discover",
+                "li1": "CRM Comparision",
+                "li2": "Partner Program",
+                "li3": "What is CRM",
+                "li4": "Resource"
+            },
+            "ul4": {
+                "h1": "Help Center",
+                "li1": "Community",
+                "li2": "Knowledge Base",
+                "li3": "Academy",
+                "li4": "Support"
+            }
+        }
+    }
+}
