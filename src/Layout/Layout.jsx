@@ -19,34 +19,35 @@ const Layout = () => {
 
   return (
     <div>
-      <header className="w-[1519px] m-auto sm:w-[100%] md:w-[100%] lg:w-[100%]">
+      <header className="w-[1519px] m-auto sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%]">
         <nav className="w-[90%] m-auto flex justify-between items-center h-[90px] sm:w-[90%] md:w-[90%] lg:w-[90%]">
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="" className="dark:hidden"/>
+          <img src={Logo_2} alt="" className="hidden dark:flex"/>
           <div className="flex justify-between w-[43%] sm:hidden md:hidden lg:hidden">
             <Switcher />
             <select
               name=""
               id=""
               onChange={(e) => TranslateClick(e.target.value)}
-              className="mb-[10px]"
+              className="mb-[10px] dark:bg-transparent dark:text-[#eeee]"
             >
-              <option value="en">EN</option>
-              <option value="ru">RU</option>
-              <option value="tj">TJ</option>
+              <option className="dark:text-[#000]" value="en">EN</option>
+              <option className="dark:text-[#000]" value="ru">RU</option>
+              <option className="dark:text-[#000]" value="tj">TJ</option>
             </select>
-            <Link className="text-[17px]">{t("header.nav.home")}</Link>
-            <Link to={"/About"} className="text-[17px]">
+            <Link className="text-[17px] dark:text-[#eeee]">{t("header.nav.home")}</Link>
+            <Link to={"/About"} className="text-[17px] dark:text-[#eeee]">
               {t("header.nav.about")}
             </Link>
-            <Link to={"/Blog"} className="text-[17px]">
+            <Link to={"/Blog"} className="text-[17px] dark:text-[#eeee]">
               {t("header.nav.blog")}
             </Link>
-            <Link to={"/Pricing"} className="text-[17px]">
+            <Link to={"/Pricing"} className="text-[17px] dark:text-[#eeee]">
               {t("header.nav.pricing")}
             </Link>
             <Link
               to={"/Contacts"}
-              className="text-[17px] font-[700] border-b-2 border-black pb-[5px] ml-[30px]"
+              className="text-[17px] dark:text-[#eeee] font-[700] border-b-2 border-black pb-[5px] ml-[30px] dark:border-white"
             >
               {t("header.nav.contacts")} <ArrowForward />
             </Link>
@@ -57,7 +58,7 @@ const Layout = () => {
         </nav>
       </header>
       <Outlet />
-      <footer className="w-[1519px] bg-[#1D1E25] m-auto sm:w-[100%] md:w-[100%] lg:w-[100%]">
+      <footer className="w-[1519px] bg-[#1D1E25] m-auto sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%]">
         <div className="text-[#eeeeee] w-[90%] m-auto flex justify-between items-center h-[500px] sm:h-[300px] md:h-[300px] lg:h-[300px] sm:flex-wrap md:flex-wrap lg:flex-wrap">
           <div>
             <h1 className="text-[65px] font-[600] mb-[15px] sm:text-[30px] md:text-[30px] lg:text-[30px]">{t("footer.top.h1")}</h1>

@@ -15,6 +15,9 @@ import '/src/App.css';
 import manimg from '/src/assets/Rectangle 4.png'
 import womanimg from '/src/assets/Rectangle 5.png'
 import manimg_2 from '/src/assets/Rectangle 6.png'
+import twitter from '/src/assets/Social icon (1).svg'
+import linkedin from '/src/assets/Social icon (2).svg'
+import instagram from '/src/assets/Social icon (3).svg'
 import twitter_2 from '/src/assets/Social Icons.png'
 import linkedin_2 from '/src/assets/Social Icons (1).png'
 import instagram_2 from '/src/assets/Social Icons (2).png'
@@ -34,7 +37,7 @@ const About = () => {
   }, []);
 
   return (
-    <main className="w-[1519px] m-auto sm:w-[100%] md:w-[100%] lg:w-[100%]">
+    <main className="w-[1519px] m-auto sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%] dark:text-[#eeee]">
       <section className="w-[90%] m-auto">
         <h1 className="text-[70px] font-[600] w-[55%] sm:text-[25px] md:text-[35px] lg:text-[45px] sm:w-[80%] md:w-[70%] lg:w-[60%]">{t("main_2.section_1.h1")}</h1>
         <div className="flex justify-between items-center">
@@ -99,22 +102,22 @@ const About = () => {
           }}
         >
           <SwiperSlide>
-            <Card_6 img={manimg} name={t('main_2.section_4.name1')} statis={t('main_2.section_4.pos1')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+            <Card_6 img={manimg} name={t('main_2.section_4.name1')} statis={t('main_2.section_4.pos1')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} twitter2={twitter} linkedin2={linkedin} instagram2={instagram} />
           </SwiperSlide>
           <SwiperSlide>
-          <Card_6 img={womanimg} name={t('main_2.section_4.name2')} statis={t('main_2.section_4.pos2')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+          <Card_6 img={womanimg} name={t('main_2.section_4.name2')} statis={t('main_2.section_4.pos2')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} twitter2={twitter} linkedin2={linkedin} instagram2={instagram} />
           </SwiperSlide>
           <SwiperSlide>
-          <Card_6 img={manimg_2} name={t('main_2.section_4.name3')} statis={t('main_2.section_4.pos3')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+          <Card_6 img={manimg_2} name={t('main_2.section_4.name3')} statis={t('main_2.section_4.pos3')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} twitter2={twitter} linkedin2={linkedin} instagram2={instagram} />
           </SwiperSlide>
           <SwiperSlide>
-            <Card_6 img={manimg} name={t('main_2.section_4.name1')} statis={t('main_2.section_4.pos1')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+            <Card_6 img={manimg} name={t('main_2.section_4.name1')} statis={t('main_2.section_4.pos1')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} twitter2={twitter} linkedin2={linkedin} instagram2={instagram} />
           </SwiperSlide>
           <SwiperSlide>
-          <Card_6 img={womanimg} name={t('main_2.section_4.name2')} statis={t('main_2.section_4.pos2')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+          <Card_6 img={womanimg} name={t('main_2.section_4.name2')} statis={t('main_2.section_4.pos2')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} twitter2={twitter} linkedin2={linkedin} instagram2={instagram} />
           </SwiperSlide>
           <SwiperSlide>
-          <Card_6 img={manimg_2} name={t('main_2.section_4.name3')} statis={t('main_2.section_4.pos3')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} />
+          <Card_6 img={manimg_2} name={t('main_2.section_4.name3')} statis={t('main_2.section_4.pos3')} twitter={twitter_2} linkedin={linkedin_2} instagram={instagram_2} twitter2={twitter} linkedin2={linkedin} instagram2={instagram} />
           </SwiperSlide>
         </Swiper>
         </div>

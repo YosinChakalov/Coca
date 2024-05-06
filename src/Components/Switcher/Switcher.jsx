@@ -21,7 +21,7 @@ export default function Switcher() {
           onChange={toggleDarkMode}
           size={30}
           sunColor='dark'
-          moonColor='black'
+          moonColor='white'
         />
       </div>
     </>

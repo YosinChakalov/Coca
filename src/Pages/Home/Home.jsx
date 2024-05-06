@@ -82,11 +82,11 @@ const Home = () => {
 
   return (
     <>
-      <main className="w-[1519px] m-auto sm:w-[100%] md:w-[100%] lg:w-[100%]">
+      <main className="w-[1519px] m-auto sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%] dark:text-[#eeee]">
         <section className="w-[90%] m-auto">
           <div className="flex justify-between items-center h-[900px]  sm:h-[370px] md:h-[370px] lg:h-[370px]">
             <div className="flex flex-col justify-between items-start h-[600px] sm:h-[300px] md:h-[300px] lg:h-[300px]  ">
-              <h1 className="text-[70px] font-[700] w-[80%] text-[#1D1E25] sm:text-[30px] md:text-[40px] lg:text-[50px]">
+              <h1 className="text-[70px] font-[700] w-[80%] sm:text-[30px] md:text-[40px] lg:text-[50px]">
                 {t("main.section_1.h1")}
               </h1>
               <div className="flex items-start">
@@ -96,7 +96,7 @@ const Home = () => {
                 </p>
               </div>
               <div>
-                <TextField label="Enter your email" variant="standard" style={{marginBottom: 20}} />
+                <TextField label="Enter your email" variant="standard" style={{marginBottom: 20,marginRight: 30}} />
                 <Button
                   variant="contained"
                   style={{

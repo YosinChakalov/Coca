@@ -29,12 +29,12 @@ const Pricing = () => {
     {
       key: "1",
       label: (
-        <p className="text-[24px] text-[#1D1E25] font-[semibold]">
+        <p className="text-[24px] text-[#1D1E25] font-[semibold] dark:text-[#eeee]">
           {t("main_3.section_3.text1")}
         </p>
       ),
       children: (
-        <p className="text-[#7E8492] w-[490px] bg-[white]">
+        <p className="text-[#7E8492] w-[490px] bg-transparent  ">
           {t("main_3.section_3.desc")}
         </p>
       ),
@@ -43,7 +43,7 @@ const Pricing = () => {
     {
       key: "2",
       label: (
-        <p className="text-[24px] text-[#1D1E25] font-[semibold]">
+        <p className="text-[24px] text-[#1D1E25] font-[semibold] dark:text-[#eeee]">
           {t("main_3.section_3.text2")}
         </p>
       ),
@@ -52,7 +52,7 @@ const Pricing = () => {
     {
       key: "3",
       label: (
-        <p className="text-[24px] text-[#1D1E25] font-[semibold]">
+        <p className="text-[24px] text-[#1D1E25] font-[semibold] dark:text-[#eeee]">
           {t("main_3.section_3.text3")}
         </p>
       ),
@@ -61,7 +61,7 @@ const Pricing = () => {
     {
       key: "4",
       label: (
-        <p className="text-[24px] text-[#1D1E25] font-[semibold]">
+        <p className="text-[24px] text-[#1D1E25] font-[semibold] dark:text-[#eeee]">
           {t("main_3.section_3.text4")}
         </p>
       ),
@@ -70,7 +70,7 @@ const Pricing = () => {
     {
       key: "5",
       label: (
-        <p className="text-[24px] text-[#1D1E25] font-[semibold]">
+        <p className="text-[24px] text-[#1D1E25] font-[semibold] dark:text-[#eeee]">
           {t("main_3.section_3.text3")}
         </p>
       ),
@@ -86,13 +86,13 @@ const Pricing = () => {
             <p className="text-[#1463FF] text-[16px] font-[semibold] bg-[#1463FF1A] w-[144px] h-[32px] flex justify-center items-center rounded-[16px]">
               {t("main_3.section_1.p")}
             </p>
-            <h1 className="text-[#1D1E25] text-[72px] mt-[24px] font-[bold] leading-[86.4px] tracking-[-3px]">
+            <h1 className="text-[#1D1E25] text-[72px] mt-[24px] font-[bold] leading-[86.4px] tracking-[-3px] dark:text-[#eeee]">
               {t("main_3.section_1.h1")}
             </h1>
           </div>
         </div>
 
-        <div className="h-[865px]">
+        <div className="h-[865px]  ">
           <div className="grid grid-cols-[repeat(auto-Fill,378px)] gap-[32px]">
             <Card_7
               img={icon1}
@@ -129,7 +129,7 @@ const Pricing = () => {
 
                 <div className="text-[white]">
                   <div>
-                    <h4 className="text-[24px] font-[semibold] mb-[8px]">
+                    <h4 className="text-[24px] font-[semibold] mb-[8px] ">
                       {t("main_3.section_2.card_2.title")}
                     </h4>
                     <p className="text-[#7E8492] text-[16px] leading-[26px] font-[medium]">
@@ -264,9 +264,9 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div>
+      <div className="sm:mt-[2000px] md:mt-[1850px] lg:mt-[1000px] xl:mt-[1000px] ">
         <div className="text-center">
-          <h1 className="text-[#1D1E25] text-[56px] font-[semibold] tracking-[-2px] mb-[24px]">
+          <h1 className="text-[#1D1E25] text-[56px] font-[semibold] tracking-[-2px] mb-[24px] dark:text-[#eeee]">
             {t("main_3.section_3.h1")}
           </h1>
           <p className="text-[#7E8492] text-[18px] font-[medium]">
@@ -282,7 +282,7 @@ const Pricing = () => {
               <CaretRightOutlined rotate={isActive ? 90 : 0} />
             )}
             style={{
-              background: token.colorBgContainer,
+              background: "transparent",
             }}
             items={getItems(panelStyle)}
           />
